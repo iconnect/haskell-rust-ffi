@@ -11,3 +11,9 @@ borsh = "0.9"
 haskell-ffi-derive = { path = "../haskell-ffi-derive" }
 ref-cast = "1.0"
 serde = "1.0"
+
+[features]
+capi = []
+
+[package.metadata.capi.library]
+versioning = true
